@@ -5,10 +5,6 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.rajkumar.admobe_banner_ad.MainActivity">
 
@@ -35,5 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6467211839715338/5420493402" />
+        ads:adUnitId="UNIT ID"/>
+        <!--You can find the UNIT ID once you create Banner ad in Admob-->
+        <!--For more details see the Screenshort folder of Github Project-->
+        <!--See UNIT AND AP ID image-->
+
 </LinearLayout>

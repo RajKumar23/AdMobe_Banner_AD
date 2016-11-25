@@ -23,17 +23,17 @@ public class Both extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.both);
 
-        //View adContainer = findViewById(R.id.adMob);
-        MobileAds.initialize(this,"ca-app-pub-6467211839715338~3943760206");
-//        showNativeAd();
-
+        MobileAds.initialize(this,"APP ID");
+//        You can find the App ID once you create the banner ad unit successfully
+//        For more details see the Screenshort folder of Github Project
+//        See UNIT AND AP ID image
 
         AdView adView1 = (AdView) this.findViewById(R.id.adMob1);
         //request TEST ads to avoid being disabled for clicking your own ads
         AdRequest adRequest1 = new AdRequest.Builder()
                 //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)// This is for emulators
                 //test mode on DEVICE (this example code must be replaced with your device uniquq ID)
-                .addTestDevice("23B29F690F8BFBF8928A846E75BDFA90") // Nexus 5
+                .addTestDevice("C8968AF2B06CEE06057918151EA4C97C") // Nexus 5
                 .build();
         adView1.loadAd(adRequest1);
 
@@ -42,7 +42,7 @@ public class Both extends AppCompatActivity {
         AdRequest adRequest2 = new AdRequest.Builder()
                 //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)// This is for emulators
                 //test mode on DEVICE (this example code must be replaced with your device uniquq ID)
-                .addTestDevice("23B29F690F8BFBF8928A846E75BDFA90") // Nexus 5
+                .addTestDevice("C8968AF2B06CEE06057918151EA4C97C") // Nexus 5
                 .build();
         adView2.loadAd(adRequest2);
 

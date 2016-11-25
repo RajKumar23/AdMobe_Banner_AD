@@ -2,15 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="15dp">
+    android:layout_height="match_parent">
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adMob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6467211839715338/5420493402" />
+        ads:adUnitId="UNIT ID" />
+    <!--You can find the UNIT ID once you create Banner ad in Admob-->
+    <!--For more details see the Screenshort folder of Github Project-->
+    <!--See UNIT AND AP ID image-->
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
